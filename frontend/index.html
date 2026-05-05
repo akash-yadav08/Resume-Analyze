@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Resume Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+
+  <div class="card">
+    <h1>Resume Analyzer 🚀</h1>
+    <p class="subtitle">Upload your resume & get AI feedback</p>
+
+    <input type="file" id="fileInput">
+    <button onclick="upload()">Analyze Resume</button>
+
+    <div id="result" class="hidden">
+
+      <h3>Resume Score</h3>
+      <div class="progress">
+        <div id="scoreBar"></div>
+      </div>
+      <p id="scoreText"></p>
+
+      <h3>Skills Found</h3>
+      <div id="skills"></div>
+
+      <h3>Suggestions</h3>
+      <p id="suggestions"></p>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

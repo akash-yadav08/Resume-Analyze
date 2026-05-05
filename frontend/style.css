@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 25px;
+  color: white;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg,#00c6ff,#0072ff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.progress {
+  height: 10px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 10px;
+}
+
+#scoreBar {
+  height: 100%;
+  width: 0%;
+  background: lime;
+  transition: 0.5s;
+}
+
+.hidden {
+  display: none;
+}
+
+#skills span {
+  background: rgba(255,255,255,0.2);
+  padding: 5px 8px;
+  margin: 3px;
+  border-radius: 8px;
+  display: inline-block;
+}
