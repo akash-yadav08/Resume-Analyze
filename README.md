@@ -38,4 +38,8 @@ An AI-powered Resume Analyzer that evaluates resumes, calculates a skill-based s
 
 ---
 
+## 📸 Screenshots
+
+![App UI](screenshot.png)
+
 ## 📁 Project Structure
