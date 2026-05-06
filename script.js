@@ -10,7 +10,7 @@ async function upload() {
     formData.append("file", file);
 
     try {
-        let res = await fetch("https://resume-analyze-6gax.onrender.com/analyze", {
+        let res = await fetch("https://resume-analyze-6qax.onrender.com/analyze", {
             method: "POST",
             body: formData
         });
